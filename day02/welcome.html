@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page</title>
+    <style>
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+       } 
+
+       header  {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: black;
+}
+header img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    align-items: flex-start;
+}
+       nav {
+    display: flex;
+    gap: 20px
+}
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: pink;
+}    
+/* Main Section */
+main{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section {
+    max-width: 700px;
+    padding: 40px;
+}
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+    <img src="img.jpg.PNG" alt="Logo">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    </header>
+    <main>
+       <section>
+        <h1>Welcome to Training Camp for skill and Acquisition</h1>
+       </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information </title>
+     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: slategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: white;
+            width: 400px;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0.12);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: tomato;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="form-container">
+    <h1>Personal Information </h1>
+    <form>
+        <label for="Date of birth">Date of birth: </label>
+        <input type="date" name="DOB" id="Date of birth">
+        <br><br>
+        <label for="Age">Age: </label>
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+        <br><br>
+        <label for="Gender">Gender </label>
+        <br><br>
+        <div>
+        <label for="Male">Male </label>
+        <input type="radio" name="Gender" id="male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female">
+        </div>
+        <br><br>
+        <button type="button" onclick="window.location.href='form3.html'">Next</button>
+        </form>
+    </div>
+    
+</body>
+</html>

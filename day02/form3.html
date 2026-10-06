@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: slategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: white;
+            width: 400px;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0.12);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: tomato;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="form-container">
+    <h1>Education Form</h1>
+    <form>
+        <label for="School">School: </label>
+        <input type="text" name="School" id="School" placeholder="School name">
+        <br><br>
+        <label for="Course">Course: </label>
+        <input type="text" name="Course" id="Course" placeholder="Course of Study">
+        <br><br>
+        <label for="Phone Number">Phone Number: </label>
+        <input type="number" name="number" id="number" placeholder="Insert Phone number">
+        <br><br>
+        <label for="State for Origin">State of Origin: </label>
+        <input type="text" name="State of Origin" id="State of Origin" placeholder="eg. Abia State">
+        <br><br>
+        <button type="button" onclick="window.location.href='form4.html'">Next</button>
+    </div>
+    </form>
+</body>
+</html>
